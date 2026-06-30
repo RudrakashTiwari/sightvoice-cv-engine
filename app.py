@@ -56,7 +56,8 @@ if __name__ == "__main__":
     # Hugging Face Spaces dynamically assigns a port via the PORT environment variable.
     # Defaulting to 7860 if it doesn't exist.
     import os
+
     port = int(os.environ.get("PORT", 7860))
-    
+
     # Must listen on 0.0.0.0 to handle incoming traffic outside the container
     app.run(host="0.0.0.0", port=port)
