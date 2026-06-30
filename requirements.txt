@@ -1,0 +1,12 @@
+# Python 3.10+
+ultralytics
+torch
+torchvision
+timm
+transformers
+sentencepiece
+sacremoses
+opencv-python
+pillow
+numpy
+flask
